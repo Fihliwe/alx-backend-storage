@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS users (
     name VARCHAR(225),
     country ENUM('US', 'CO', 'TN'),
     PRIMARY KEY (id)
-)
+);
