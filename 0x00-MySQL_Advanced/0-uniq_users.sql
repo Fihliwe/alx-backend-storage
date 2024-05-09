@@ -1,7 +1,7 @@
 -- Creates users table
-CREATE TABLE IF NOT EXITS users (
+CREATE TABLE IF NOT EXISTS users (
     id INT NOT NULL AUTO_INCREMENT,
     email VARCHAR(225) NOT NULL UNIQUE,
-    name VARHCAR(225),
+    name VARCHAR(225),
     PRIMARY KEY (id)
 );
